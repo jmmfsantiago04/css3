@@ -15,10 +15,10 @@ const Section1 = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-50 "></div>
 
-      <div className="container relative md:p mx-auto flex lg:flex-row items-center flex-col-reverse w-full h-full">
+      <div className="container relative  md:p mx-auto flex lg:flex-row items-center flex-col-reverse w-full h-full">
         {/* Left Section - Form */}
         <div
-          className="bg-white rounded-[30px] sm:pb-5 sm:pr-2 sm:mb-4  md:pt-[60px] shadow-lg flex flex-col items-center pl-[30px] md:pb-4 pr-[30px] md:pl-[50px] md:pr-[75px] text-center w-full lg:w-auto"
+          className="bg-white  m-4 sm:pb-5 sm:pr-2 gap-7 sm:gap-7 sm:mb-4 rounded-[30px] pt-[40px] md:pt-[45px]  pb-[40px] shadow-lg flex flex-col items-center  md:pb-[40px] pr-[30px] md:pl-[50px] md:pr-[75px] text-center w-full lg:w-auto"
         >
           <h2 className="text-custom-red text-[24px] md:text-[30px] font-bold mb-[10px]">
             실시간 차량 수출 무료 상담
@@ -82,13 +82,13 @@ const Section1 = () => {
         </div>
 
         {/* Right Section - Image and Text */}
-        <div className="flex  md:ml-[120px] flex-col justify-between lg:w-1/2 text-center lg:text-left h-full">
+        <div className="flex mt-6 md:mt-[100px] lg:ml-[105px] flex-col justify-between lg:w-1/2 text-center lg:text-left h-full">
           {/* Text Section */}
           <div>
-            <h2 className="text-custom-red lg:mt-[140px] text-[24px] md:text-[30px] font-bold">
+            <h2 className="text-custom-red text-[25px] md:mt-4 lg:mt-[140px] sm:text-[25px] md:text-[25px] lg:text-[30px] font-bold">
               투명한 가격과 프로세스로
             </h2>
-            <p className="text-white lg:mt-[50px] lg:ml-[155px] text-[24px] md:text-[30px]">
+            <p className="text-white whitespace-nowrap text-[25px] lg:mt-[50px] lg:ml-0 xl:ml-[155px] sm:text-[25px] lg:text-[30px] md:text-[25px]">
               신뢰할 수 있는 중고차 수출 솔루션
             </p>
           </div>
