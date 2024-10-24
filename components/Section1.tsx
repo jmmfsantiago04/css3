@@ -7,7 +7,7 @@ import Man1 from '../public/Man1.png';
 const Section1 = () => {
   return (
     <div
-      className="relative flex items-center justify-center lg:pl-[50px] bg-cover bg-center h-screen"
+      className="relative flex items-center justify-center xl:mb-[100px] lg:pl-[50px] bg-cover bg-center h-screen"
       style={{
         backgroundImage: `url('/TopBannerBG.png')`,
       }}
@@ -15,15 +15,15 @@ const Section1 = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-50 "></div>
 
-      <div className="container relative  md:p mx-auto flex lg:flex-row items-center flex-col-reverse w-full h-full">
+      <div className="container relative   mx-auto flex lg:flex-row items-center  flex-col-reverse w-full h-full">
         {/* Left Section - Form */}
         <div
-          className="bg-white  m-4 sm:pb-5 sm:pr-2 gap-7 sm:gap-7 sm:mb-4 rounded-[30px] pt-[40px] md:pt-[45px]  pb-[40px] shadow-lg flex flex-col items-center  md:pb-[40px] pr-[30px] md:pl-[50px] md:pr-[75px] text-center w-full lg:w-auto"
+          className="bg-white shadow-lg flex flex-col items-center rounded-[30px] text-center m-5 p-5 lg:p-7  md:p-5 md:m-5 sm:p-5 sm:m-5 "
         >
-          <h2 className="text-custom-red text-[24px] md:text-[30px] font-bold mb-[10px]">
+          <h2 className="text-custom-red text-[20px] font-bold mb-[10px] lg:text-[25px] md:text-[25px] sm:text-[20px] xl:text-[30px">
             실시간 차량 수출 무료 상담
           </h2>
-          <p className="text-gray-700 text-[18px] md:text-[20px] mb-[30px] md:mb-[50px] lg:flex-nowrap md:flex-nowrap sm:flex-nowrap">
+          <p className="text-gray-700 text-[18px]  mb-[30px] lg:text-[20px] md:text-[18px] sm:text-[16px] ">
             연식, 주행거리, 사고 유무 상관없이 최고가 매입
           </p>
 
@@ -53,7 +53,7 @@ const Section1 = () => {
             </div>
 
             {/* Checkbox Section */}
-            <div className="mb-[40px] md:mb-[60px]">
+            <div className="mb-[60px] ml-3">
               <div className="flex items-center">
                 {/* Checkbox and Label */}
                 <label className="inline-flex items-center">
@@ -94,7 +94,7 @@ const Section1 = () => {
           </div>
 
           {/* Image Section */}
-          <div className="mt-auto lg:ml-[70px] hidden xl:block">
+          <div className="mt-auto xl:mb-[50px] lg:ml-[70px] hidden xl:block">
             <Image
               src={Man1}
               alt="Man"
